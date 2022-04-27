@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-beta.9">
+<link rel="alternate" type="application/rss+xml" href="/ArcaneumFramework/blog/rss.xml" title="Arcaneum Framework RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ArcaneumFramework/blog/atom.xml" title="Arcaneum Framework Atom Feed"><title data-react-helmet="true">Utilities | Arcaneum Framework</title><meta data-react-helmet="true" property="og:title" content="Utilities | Arcaneum Framework"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="description" content="A module that consists of handy functions that will be used throughout the framework and game. Extends [Class]."><meta data-react-helmet="true" property="og:description" content="A module that consists of handy functions that will be used throughout the framework and game. Extends [Class]."><meta data-react-helmet="true" property="og:url" content="https://MFSRoblox.github.io/ArcaneumFramework/api/Utilities"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><link data-react-helmet="true" rel="canonical" href="https://MFSRoblox.github.io/ArcaneumFramework/api/Utilities"><link data-react-helmet="true" rel="alternate" href="https://MFSRoblox.github.io/ArcaneumFramework/api/Utilities" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://MFSRoblox.github.io/ArcaneumFramework/api/Utilities" hreflang="x-default"><link rel="stylesheet" href="/ArcaneumFramework/assets/css/styles.740f7444.css">
+<link rel="preload" href="/ArcaneumFramework/assets/js/runtime~main.1d777d04.js" as="script">
+<link rel="preload" href="/ArcaneumFramework/assets/js/main.dd04c68f.js" as="script">
+</head>
+<body>
+<script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,e("light"))}()</script><div id="__docusaurus">
+<div><a href="#" class="skipToContent_1oUP">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ArcaneumFramework/"><b class="navbar__title">Arcaneum Framework</b></a><a class="navbar__item navbar__link" href="/ArcaneumFramework/docs/intro">Docs</a><a class="navbar__item navbar__link" href="/ArcaneumFramework/blog">Blog</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ArcaneumFramework/api/">API</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/MFSRoblox/ArcaneumFramework/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link"><span>GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a><div class="toggle_71bT toggle_3Zt9 toggleDisabled_3cF-"><div class="toggleTrack_32Fl" role="button" tabindex="-1"><div class="toggleTrackCheck_3lV7"><span class="toggleIcon_O4iE">🌜</span></div><div class="toggleTrackX_S2yS"><span class="toggleIcon_O4iE">🌞</span></div><div class="toggleTrackThumb_xI_Z"></div></div><input type="checkbox" class="toggleScreenReader_28Tw" aria-label="Switch between dark and light mode"></div><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input type="search" id="search_input_react" placeholder="Press S to Search..." aria-label="Search" class="navbar__search-input search-bar"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div class="main-wrapper docPageContainer_2Kz0"><div class="docPage_1bdk"><div class="docSidebarContainer_1ykS"><div class="sidebar_15mo"><nav class="menu thin-scrollbar menu_Bmed"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><a class="menu__link menu__link--sublist" href="#">Class Functions</a><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ArcaneumFramework/api/BaseClass">​Base​Class</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ArcaneumFramework/api/Class">​Class</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ArcaneumFramework/api/InternalClass">​Internal​Class</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#">Globals</a><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ArcaneumFramework/api/ClassService">​Class​Service</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ArcaneumFramework/api/Utilities">​Utilities</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ArcaneumFramework/api/ArcaneumGlobals">​Arcaneum​Globals</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ArcaneumFramework/api/BallisticsFunctions">​Ballistics​Functions</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ArcaneumFramework/api/DataTypes">​Data​Types</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ArcaneumFramework/api/Version">​Version</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_1CGd"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_3E-R"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div><main class="docMainContainer_28N5"><div class="container padding-vert--lg"><div class="row"><div class="col docItemCol_3WPG"><div class="docItemContainer_3XDu"><article><div class="member_qHIL markdown"><div class="tocCollapsible_1PrD theme-doc-toc-mobile tocMobile_3ryM"><button type="button" class="clean-btn tocCollapsibleButton_2O1e">On this page</button></div><header><h1 class="docTitle_1ddc" style="text-decoration:none"><span style="display:inline-block">Utilities</span></h1><div class="luaClassTags_2Zrs"><span class="badge_3ZFo" style="color:#349AD5"><span class="badgeTooltip_2qiw">This item only works when running on the client.</span><span class="badgeToolTipTail_2yaQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 337 304" fill="#349AD5" role="img" aria-label="This item only works when running on the client."><path d="M0 201h337v36H0v-36zm0 0zM0 0v188h337V0H0zM218 287h30c12 0 12 17 0 17H88c-11 0-11-17 0-17h31l10-39h79l10 39z"></path></svg> <!-- -->Client</span></span><span class="badge_3ZFo" style="color:#00CC67"><span class="badgeTooltip_2qiw">This item only works when running on the server.</span><span class="badgeToolTipTail_2yaQ"><svg fill="#00CC67" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 90 90" role="img" aria-label="This item only works when running on the server."><polygon points="6.125,72.421 58.544,88.523 58.544,24.372 6.125,8.269 "></polygon><polygon points="79.818,15.77 79.868,15.755 29.615,1.453 10.328,6.318 60.102,21.609 "></polygon><path d="M61.643,78.738l22.232-6.582V17.801l-22.232,6.584V78.738z M73.811,69.257c-1.174,0-2.125-1.19-2.125-2.659  c0-1.468,0.951-2.658,2.125-2.658c1.172,0,2.123,1.19,2.123,2.658C75.934,68.066,74.982,69.257,73.811,69.257z M64.898,32.121  l16.336-4.41v7.117l-16.336,4.409V32.121z M64.898,41.292l16.336-4.41v7.116l-16.336,4.409V41.292z M64.898,50.463l16.336-4.411  v7.116l-16.336,4.411V50.463z"></path><polygon points="83.875,74.893 61.643,81.477 61.643,88.547 83.875,81.963 "></polygon></svg> <!-- -->Server</span></span></div><div>
+<p>A module that consists of handy functions that will be used throughout the framework and game. Extends <a href="/ArcaneumFramework/api/Class">Class</a>.</p>
+</div></header><h2 class="anchor anchorWithStickyNavbar_31ik" id="functions">Functions<a aria-hidden="true" class="hash-link" href="#functions" title="Direct link to heading">​</a></h2><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="pcall"><code style="text-decoration:none">pcall</code><a aria-hidden="true" class="hash-link" href="#pcall" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L31"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">pcall</code><code>(</code><div class="inset_2cJr"><div><code>callback<!-- -->: </code><code class="blue_2Afy">function</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The function that you want to be called by the pcall method.</p>
+</span></span></div><div><code>ErrorMsg<!-- -->: </code><code class="blue_2Afy">string</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The Error label used in the warning message, if there were to be one.</p>
+</span></span></div><div><code>...<!-- -->: </code><code class="blue_2Afy">any</code><span class="inlineDescription_17uy">-- <span>
+<p>The parameters passed into the callback.</p>
+</span></span></div></div><code>) → </code><code class="blue_2Afy">boolean,</code><code class="blue_2Afy">any</code><span class="inlineDescription_17uy">-- <span>
+<p>Returns if the callback successfully executed, alongside anything it returned.</p>
+</span></span></div><div>
+<p>A pcall function with a prebuilt message in the format of "ErrorMsg: Result \n traceback"</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="error"><code style="text-decoration:none">error</code><a aria-hidden="true" class="hash-link" href="#error" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L45"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">error</code><code>(</code><div class="inset_2cJr"><div><code>ErrorMsg<!-- -->: </code><code class="blue_2Afy">string</code><span class="inlineDescription_17uy">-- <span>
+<p>The Error message that will be displayed.</p>
+</span></span></div></div><code>) → </code><code class="blue_2Afy">nil</code></div><div>
+<p>An error function that creates an error message without killing the thread it was called in</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="RemoveFromTable"><code style="text-decoration:none">RemoveFromTable</code><a aria-hidden="true" class="hash-link" href="#RemoveFromTable" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L55"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">RemoveFromTable</code><code>(</code><div class="inset_2cJr"><div><code>TargetTable<!-- -->: </code><code class="blue_2Afy">table</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The table of which would be searched and have the object removed from.</p>
+</span></span></div><div><code>ThingToRemove<!-- -->: </code><code class="blue_2Afy">any</code><span class="inlineDescription_17uy">-- <span>
+<p>The object of which you want to remove from the table.</p>
+</span></span></div></div><code>) → </code><code class="blue_2Afy">boolean</code><span class="inlineDescription_17uy">-- <span>
+<p>Returns if it actually removed the item.</p>
+</span></span></div><div>
+<p>A quick table.remove(table.find) method that would try to find your object in the TargetTable and remove it, if it exists.</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="GetAttributeFromInstances"><code style="text-decoration:none">GetAttributeFromInstances</code><a aria-hidden="true" class="hash-link" href="#GetAttributeFromInstances" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L73"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">GetAttributeFromInstances</code><code>(</code><div class="inset_2cJr"><div><code>AttributeName<!-- -->: </code><code class="blue_2Afy">string</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The name of the Attribute to get from the inputted instances.</p>
+</span></span></div><div><code>DefaultValue<!-- -->: </code><code class="blue_2Afy">any</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The default value incase the inputted instance doesn't have the Attribute.</p>
+</span></span></div><div><code>...<!-- -->: </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="https://developer.roblox.com/en-us/api-reference/datatype/Instance" target="_blank" rel="noopener noreferrer">Instance<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound" style="color:gray;vertical-align:middle;margin-left:2px"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></code><span class="inlineDescription_17uy">-- <span>
+<p>The Instances that will be checked for the attribute.</p>
+</span></span></div></div><code>) → </code><code class="blue_2Afy">...any</code><span class="inlineDescription_17uy">-- <span>
+<p>The values of the attributes retrieved from the inputted Instances.</p>
+</span></span></div><div>
+<p>
+  Used to get a specific attribute from a set of instances, setting a default value for the output if the instance doesn't have the attribute.
+  The output will return attribute values in the order of which they are inputted into the function.
+</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="ModulesToTable"><code style="text-decoration:none">ModulesToTable</code><a aria-hidden="true" class="hash-link" href="#ModulesToTable" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L99"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">ModulesToTable</code><code>(</code><div class="inset_2cJr"><div><code>ObjectTable<!-- -->: </code><code class="blue_2Afy">table</code><code>,</code></div><div><code>BaseOutput<!-- -->: </code><code class="blue_2Afy">table?</code><code>,</code></div><div><code>Overwrite<!-- -->: </code><code class="blue_2Afy">boolean?</code></div></div><code>) → </code><code class="blue_2Afy">Dictionary</code></div><div>
+<p>Used to turn a table of modules (commonly obtained through Instance:GetChildren()) into a dictionary that contains the each module, with the names of each module representing the key to said modules.</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="ImportModule"><code style="text-decoration:none">ImportModule</code><a aria-hidden="true" class="hash-link" href="#ImportModule" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/MFSRoblox/ArcaneumFramework//blob/main/src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua#L137"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Utilities<!-- -->:</code><code class="green_3LnD">ImportModule</code><code>(</code><div class="inset_2cJr"><div><code>Start<!-- -->: </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="https://developer.roblox.com/en-us/api-reference/datatype/Instance" target="_blank" rel="noopener noreferrer">Instance<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound" style="color:gray;vertical-align:middle;margin-left:2px"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></code><code>,</code></div><div><code>...<!-- -->: </code><code class="blue_2Afy">string</code></div></div><code>) → </code><code class="blue_2Afy">any</code><span class="inlineDescription_17uy">-- <span>
+<p>The output of the module via require(module), assuming the module exists.</p>
+</span></span></div><div>
+<p>
+  Safely imports a module using traditional syntax such as "script.Parent.InstanceName.InstanceName.InstanceName.etc", but ensures each object in the index exists through WaitForChild functions.
+  If successful, it will require that module and return the contents of said module.
+</p>
+</div></div></article></div><details><summary>Show raw api</summary><pre style="max-width:100%;white-space:pre-wrap">{
+    &quot;functions&quot;: [
+        {
+            &quot;name&quot;: &quot;pcall&quot;,
+            &quot;desc&quot;: &quot;A pcall function with a prebuilt message in the format of \&quot;ErrorMsg: Result \\n traceback\&quot;&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;callback&quot;,
+                    &quot;desc&quot;: &quot;The function that you want to be called by the pcall method.&quot;,
+                    &quot;lua_type&quot;: &quot;function&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;ErrorMsg&quot;,
+                    &quot;desc&quot;: &quot;The Error label used in the warning message, if there were to be one.&quot;,
+                    &quot;lua_type&quot;: &quot;string&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;...&quot;,
+                    &quot;desc&quot;: &quot;The parameters passed into the callback.&quot;,
+                    &quot;lua_type&quot;: &quot;any&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;Returns if the callback successfully executed, alongside anything it returned.&quot;,
+                    &quot;lua_type&quot;: &quot;boolean, any&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 31,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;error&quot;,
+            &quot;desc&quot;: &quot;An error function that creates an error message without killing the thread it was called in&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;ErrorMsg&quot;,
+                    &quot;desc&quot;: &quot;The Error message that will be displayed.&quot;,
+                    &quot;lua_type&quot;: &quot;string&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;nil&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 45,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;RemoveFromTable&quot;,
+            &quot;desc&quot;: &quot;A quick table.remove(table.find) method that would try to find your object in the TargetTable and remove it, if it exists.&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;TargetTable&quot;,
+                    &quot;desc&quot;: &quot;The table of which would be searched and have the object removed from.&quot;,
+                    &quot;lua_type&quot;: &quot;table&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;ThingToRemove&quot;,
+                    &quot;desc&quot;: &quot;The object of which you want to remove from the table.&quot;,
+                    &quot;lua_type&quot;: &quot;any&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;Returns if it actually removed the item.&quot;,
+                    &quot;lua_type&quot;: &quot;boolean&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 55,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;GetAttributeFromInstances&quot;,
+            &quot;desc&quot;: &quot;Used to get a specific attribute from a set of instances, setting a default value for the output if the instance doesn&#x27;t have the attribute.\nThe output will return attribute values in the order of which they are inputted into the function.&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;AttributeName&quot;,
+                    &quot;desc&quot;: &quot;The name of the Attribute to get from the inputted instances.&quot;,
+                    &quot;lua_type&quot;: &quot;string&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;DefaultValue&quot;,
+                    &quot;desc&quot;: &quot;The default value incase the inputted instance doesn&#x27;t have the Attribute.&quot;,
+                    &quot;lua_type&quot;: &quot;any&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;...&quot;,
+                    &quot;desc&quot;: &quot;The Instances that will be checked for the attribute.&quot;,
+                    &quot;lua_type&quot;: &quot;Instance&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;The values of the attributes retrieved from the inputted Instances.&quot;,
+                    &quot;lua_type&quot;: &quot;...any&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 73,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;ModulesToTable&quot;,
+            &quot;desc&quot;: &quot;Used to turn a table of modules (commonly obtained through Instance:GetChildren()) into a dictionary that contains the each module, with the names of each module representing the key to said modules.&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;ObjectTable&quot;,
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;table&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;BaseOutput&quot;,
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;table?&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;Overwrite&quot;,
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;boolean?&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;Dictionary&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 99,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;ImportModule&quot;,
+            &quot;desc&quot;: &quot;Safely imports a module using traditional syntax such as \&quot;script.Parent.InstanceName.InstanceName.InstanceName.etc\&quot;, but ensures each object in the index exists through WaitForChild functions.\nIf successful, it will require that module and return the contents of said module.&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;Start&quot;,
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;Instance&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;...&quot;,
+                    &quot;desc&quot;: &quot;&quot;,
+                    &quot;lua_type&quot;: &quot;string&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;The output of the module via require(module), assuming the module exists.&quot;,
+                    &quot;lua_type&quot;: &quot;any&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 137,
+                &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+            }
+        }
+    ],
+    &quot;properties&quot;: [],
+    &quot;types&quot;: [],
+    &quot;name&quot;: &quot;Utilities&quot;,
+    &quot;desc&quot;: &quot;A module that consists of handy functions that will be used throughout the framework and game. Extends [Class].&quot;,
+    &quot;realm&quot;: [
+        &quot;Client&quot;,
+        &quot;Server&quot;
+    ],
+    &quot;source&quot;: {
+        &quot;line&quot;: 11,
+        &quot;path&quot;: &quot;src/ServerStorage/ArcaneumEngine/Global/Utilities/init.lua&quot;
+    }
+}</pre></details></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#error" class="table-of-contents__link toc-highlight">:error</a></li><li><a href="#GetAttributeFromInstances" class="table-of-contents__link toc-highlight">:GetAttributeFromInstances</a></li><li><a href="#ImportModule" class="table-of-contents__link toc-highlight">:ImportModule</a></li><li><a href="#ModulesToTable" class="table-of-contents__link toc-highlight">:ModulesToTable</a></li><li><a href="#pcall" class="table-of-contents__link toc-highlight">:pcall</a></li><li><a href="#RemoveFromTable" class="table-of-contents__link toc-highlight">:RemoveFromTable</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 MFSRoblox. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
+<script src="/ArcaneumFramework/assets/js/runtime~main.1d777d04.js"></script>
+<script src="/ArcaneumFramework/assets/js/main.dd04c68f.js"></script>
+</body>
+</html>

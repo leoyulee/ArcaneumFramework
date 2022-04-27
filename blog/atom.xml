@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://MFSRoblox.github.io/ArcaneumFramework/blog</id>
+    <title>Arcaneum Framework Blog</title>
+    <updated>2022-04-27T06:30:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://MFSRoblox.github.io/ArcaneumFramework/blog"/>
+    <subtitle>Arcaneum Framework Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Progress Report 1]]></title>
+        <id>PR1</id>
+        <link href="https://MFSRoblox.github.io/ArcaneumFramework/blog/PR1"/>
+        <updated>2022-04-27T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I added some more functionality to ClassService so any new classes made outside of the framework can be added into it without much hastle (and still be able to be referenced in a logical way).]]></summary>
+        <content type="html"><![CDATA[<p>I added some more functionality to ClassService so any new classes made outside of the framework can be added into it without much hastle (and still be able to be referenced in a logical way).</p><p>I&#x27;ll have to experiment with this more, and test these new changes.</p><p>However, for this to work, I needed to add a &quot;self reference&quot; for each of the classes, of which adds a new property under every class called &quot;CoreModule.&quot; I updated each class version, and found that although the version system was useful, it was sadly hindered by the fact that all of my <code>CheckVersion</code>s weren&#x27;t written in the same way so Ctrl-F could find them all. Thus I made all of them uniform, such that it follows the format of <code>\n (ClassName):CheckVersion()</code>. It made more changes A LOT easier from that point on. After this, I added the ParentClass argument to <!-- -->[ClassService:AddClassModule]<!-- --> and a new helper function of <!-- -->[ClassService:SetClassParent]<!-- -->, under the case that a module would need to be moved again for whatever reason. I also added an &quot;AddOn&quot; section for the ClassService if a new module doesn&#x27;t exactly belong under a class, but also doesn&#x27;t belong under anything else outside of a class.</p>]]></content>
+        <author>
+            <name>Leo Yu Lee</name>
+            <uri>https://github.com/leoyulee</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Post]]></title>
+        <id>firstpost</id>
+        <link href="https://MFSRoblox.github.io/ArcaneumFramework/blog/firstpost"/>
+        <updated>2022-04-26T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey! This is my first post!]]></summary>
+        <content type="html"><![CDATA[<p>Hey! This is my first post!</p><p>The next step I need to take for this framework to reach the &quot;complete state&quot; is the ability to add your own classes, datatypes, and services to the framework without needing to make a forked version. I plan on doing this by expanding upon the ClassService and the core Arcaneum module with methods that allow this to happen.</p>]]></content>
+        <author>
+            <name>Leo Yu Lee</name>
+            <uri>https://github.com/leoyulee</uri>
+        </author>
+    </entry>
+</feed>
