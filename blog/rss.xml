@@ -4,9 +4,17 @@
         <title>Arcaneum Framework Blog</title>
         <link>https://MFSRoblox.github.io/ArcaneumFramework/blog</link>
         <description>Arcaneum Framework Blog</description>
-        <lastBuildDate>Wed, 27 Apr 2022 06:30:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 May 2022 09:50:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Progress Report 2]]></title>
+            <link>https://MFSRoblox.github.io/ArcaneumFramework/blog/PR2</link>
+            <guid>PR2</guid>
+            <pubDate>Mon, 02 May 2022 09:50:00 GMT</pubDate>
+            <description><![CDATA[Finally figured out the required logic to get the TestInfoInterface to throw a warning if the metamethod wasn't "overriden." Currently writing tests for this, considering how fundamental datatypes are (and hopefully will be).]]></description>
+            <content:encoded><![CDATA[<p>Finally figured out the required logic to get the TestInfoInterface to throw a warning if the metamethod wasn&#x27;t &quot;overriden.&quot; Currently writing tests for this, considering how fundamental datatypes are (and hopefully will be).</p><p>I realized that the perspective modules (Server and Client) don&#x27;t exactly have the best &quot;AddOn&quot; functionality, and the &quot;Shared&quot; environment variables in each perspective run the risk of accidentally putting the modules into the Global Module, which would be bad for the Server especially. This is next on the to-do list.</p><p>Time&#x27;s going pretty fast. It&#x27;s hard to describe how to use this framework, I need to find an outside perspective that&#x27;s willing to work with me on documenting the usage. Considering the upcoming deadline for tests, I&#x27;m not sure if I&#x27;ll be able to get everything that I want done. Technically this framework is in a working state, so perhaps some of the features could be cut in favor of getting something done for my presentation.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Progress Report 1]]></title>
             <link>https://MFSRoblox.github.io/ArcaneumFramework/blog/PR1</link>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2706],{53050:function(a){a.exports=JSON.parse('{"allTagsPath":"/ArcaneumFramework/blog/tags","slug":"/ArcaneumFramework/blog/tags/0-0-0","name":"0.0.0","count":2,"permalink":"/ArcaneumFramework/blog/tags/0-0-0"}')}}]);

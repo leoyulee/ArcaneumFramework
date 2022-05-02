@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MFSRoblox.github.io/ArcaneumFramework/blog</id>
     <title>Arcaneum Framework Blog</title>
-    <updated>2022-04-27T06:30:00.000Z</updated>
+    <updated>2022-05-02T09:50:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MFSRoblox.github.io/ArcaneumFramework/blog"/>
     <subtitle>Arcaneum Framework Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Progress Report 2]]></title>
+        <id>PR2</id>
+        <link href="https://MFSRoblox.github.io/ArcaneumFramework/blog/PR2"/>
+        <updated>2022-05-02T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Finally figured out the required logic to get the TestInfoInterface to throw a warning if the metamethod wasn't "overriden." Currently writing tests for this, considering how fundamental datatypes are (and hopefully will be).]]></summary>
+        <content type="html"><![CDATA[<p>Finally figured out the required logic to get the TestInfoInterface to throw a warning if the metamethod wasn&#x27;t &quot;overriden.&quot; Currently writing tests for this, considering how fundamental datatypes are (and hopefully will be).</p><p>I realized that the perspective modules (Server and Client) don&#x27;t exactly have the best &quot;AddOn&quot; functionality, and the &quot;Shared&quot; environment variables in each perspective run the risk of accidentally putting the modules into the Global Module, which would be bad for the Server especially. This is next on the to-do list.</p><p>Time&#x27;s going pretty fast. It&#x27;s hard to describe how to use this framework, I need to find an outside perspective that&#x27;s willing to work with me on documenting the usage. Considering the upcoming deadline for tests, I&#x27;m not sure if I&#x27;ll be able to get everything that I want done. Technically this framework is in a working state, so perhaps some of the features could be cut in favor of getting something done for my presentation.</p>]]></content>
+        <author>
+            <name>Leo Yu Lee</name>
+            <uri>https://github.com/leoyulee</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Progress Report 1]]></title>
         <id>PR1</id>
